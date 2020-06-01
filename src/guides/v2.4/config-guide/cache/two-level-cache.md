@@ -62,7 +62,7 @@ Where:
 We recommend the use of Redis for remote caching - `\Magento\Framework\Cache\Backend\Redis`, and the File cache implementation - `Cm_Cache_Backend_File` as the local cache.
 We also recommend the use of the [`cache preload`](https://devdocs.magento.com/guides/v2.4/config-guide/redis/redis-pg-cache.html#redis-preload-feature) feature, as it will drastically decrease the pressure on Redis, just don't forget to add suffix ':version' for preload keys.
 
-##Stale cache options
+## Stale cache options
 
 Starting from 2.4 we introduce `stale_cache` option which can improve performance in some specific cases.
 
